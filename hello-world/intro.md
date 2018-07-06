@@ -1,1 +1,1 @@
-Welcome to your first Docker Scenario!
+Welcome to your first GIT Snapshot Scenario!
