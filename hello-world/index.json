@@ -1,13 +1,18 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
-  "difficulty": "beginner",
-  "time": "2 minutes",
+  "title": "GIT Scenario",
+  "description": "Basic Snapshotting",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Create and Initialize GIT",
       "text": "step1.md"
-    }],
+    },
+    {
+      "title": "Step 2 - GIT Staging",
+      "text": "step2.md"
+    }
+  ],
     "intro": {
       "text": "intro.md",
       "credits": ""

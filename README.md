@@ -1,4 +1,4 @@
-# Interactive Katacoda Scenarios
+# Interactive GIT Scenarios
 
 [![](http://shields.katacoda.com/katacoda/diwap/count.svg)](https://www.katacoda.com/diwap "Get your profile on Katacoda.com")
 
