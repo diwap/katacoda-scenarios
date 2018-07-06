@@ -7,8 +7,13 @@ Let's add _app.py_.
 We are staging one specific file. We can do same wih directory.  
 If we stage directory, all the modified files inside directory will be changed into staging.
 
+Let's initialize git in __learn-git__ directory.  
+`git init`{{execute}}
+
 To add all file to staging we use  
-```git add .```  
+```git
+git add .
+```  
 This will add modified and untracked files.
 
 `git add app.py`{{execute}}  
