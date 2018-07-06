@@ -1,1 +1,1 @@
-You've completed your first Snapshotting!
+You've completed your first git Snapshotting!
