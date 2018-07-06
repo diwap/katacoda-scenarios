@@ -11,3 +11,5 @@ Add file with text
 `cd learn-git`{{execute}}
 
 `echo "print (\"Hello World\")" > app.py`{{execute}}
+
+`ls -alh`{{execute}}

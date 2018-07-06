@@ -11,6 +11,22 @@
     {
       "title": "Step 2 - GIT Staging",
       "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - GIT status",
+      "text": "step3.md"
+    },
+    {
+      "title": "Step 2 - GIT diff",
+      "text": "step4.md"
+    },
+    {
+      "title": "Step 2 - GIT commit",
+      "text": "step5.md"
+    },
+    {
+      "title": "Step 2 - GIT .gitignore",
+      "text": "step6.md"
     }
   ],
     "intro": {
@@ -23,7 +39,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive GIT Terminal.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "git"
