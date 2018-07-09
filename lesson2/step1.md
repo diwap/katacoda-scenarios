@@ -1,15 +1,7 @@
-We will create project folder and initialize git.
+This is your first step.
 
 ## Task
 
-Create project folder
+This is an _example_ of creating a scenario and running a **command**
 
-`mkdir learn-git`{{execute}}
-
-Add file with text
-
-`cd learn-git`{{execute}}
-
-`echo "print (\"Hello World\")" > app.py`{{execute}}
-
-`ls -alh`{{execute}}
+`echo 'Hello World'`{{execute}}

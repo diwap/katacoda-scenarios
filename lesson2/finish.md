@@ -1,1 +1,1 @@
-You've completed your first git Snapshotting!
+You've completed your first Katacoda scenario!

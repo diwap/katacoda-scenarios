@@ -1,1 +1,1 @@
-Welcome to your first GIT Snapshot Scenario!
+Welcome to your first Katacoda Scenario!
