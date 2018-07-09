@@ -1,40 +1,50 @@
-We will stage files and unstage
+git-reset - Reset current HEAD to the specified state
 
-## Task
+## Task 1
 
-Let's add _app.py_.  
+> --soft reset
 
-We are staging one specific file. We can do same wih directory.  
-If we stage directory, all the modified files inside directory will be changed into staging.
+Soft reset is mostly used when we are commiting incomplete work.  
+We can reset our commit, make changes and commit again with same commit message.
 
-Let's initialize git in __learn-git__ directory.  
-`git init`{{execute}}
+We have two commit messages
 
-To add all file to staging we use  
-```git
-git add .
-```  
-This will add modified and untracked files.
+`git log --oneline`{{execute}}
 
-`git add app.py`{{execute}}  
+Let's reset our HEAD.
 
-Let's add some more file and commit previous changes.  
+`git reset --soft HEAD~1`{{execute}}
 
-`git commit -m "initialize file" && echo "Hello Buddy" > me.txt`{{execute}}  
+Now edit file app.txt
 
-Let's change _app.py_,
+<pre class="file" data-filename="app.txt" data-target="replace">
+Hello this is a change to learn
+--soft reset
+</pre>
 
-`echo "print(\"New line\")" >> app.py`{{execute}}
+Now let's commit our changes to previous message.
 
-Now stage changes
+`git commit -a -c ORIG_HEAD`{{execute}}
 
-`git add app.py`{{execute}}  
+## Task 2
 
-Let's unstage all the changes to latest commit HEAD.
+> --hard reset
 
-`git reset HEAD`{{execute}}  
+When you make a change to master branch which is not suitable yet to be there.  
+Then we undo a commit and make another branch to start working.
 
-When we reset to latest commit HEAD, we unstage our changes. However, modified version is still available. We can clear all changes too.  
-To do this we have to reset our changes HARD  
+First create branch
 
-`git reset --hard HEAD`{{execute}}
+`git branch mychange`{{execute}}
+
+Now reset changes in hard mode
+
+`git reset --hard HEAD~1`{{execute}}
+
+Now checkout to our new branch
+
+`git checkout mychange`{{execute}}
+
+`git log --oneline`{{execute}}
+
+This happens because we already created branch before resetting and our previous HEAD was already there in __mychange__ branch.
