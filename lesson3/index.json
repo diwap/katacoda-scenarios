@@ -1,0 +1,42 @@
+{
+  "title": "GIT Scenario",
+  "description": "Basic Snapshotting",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Create and Initialize GIT",
+      "text": "step1.md"
+    },
+    {
+      "title": "Step 2 - Reset",
+      "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Remove",
+      "text": "step3.md"
+    },
+    {
+      "title": "Step 4 - Move",
+      "text": "step4.md"
+    }
+  ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "app.txt"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive GIT Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "git"
+  }
+}
