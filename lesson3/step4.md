@@ -1,18 +1,22 @@
-git-diff - Show changes between commits, commit and working tree, etc
+git-mv - Move or rename a file, a directory, or a symlink
 
 ## Task
 
-To simply differentiate changes and previous commit.
+Using `git mv`, we can make use of three command at once.  
+It automatically remove deleted file and stage new file.
 
-`git diff`{{execute}}
+`git mv public apple`{{execute}}
 
-To differentiate between two commit we use
+If we use mv command, we have to do all the command to reach the state of what __git mv__ does.
 ```git
-$ git diff commit_id_1 commit_id_2
+mv public apple
+git add apple
+git rm -r public
 ```
 
-We can see addtional line as __green__ color and changed or lines that has been removed can be seen in __red__ color.
+When we see status file will be staged and rename info.  
+`git status`{{execute}}
 
-To differentiate changes only of some file
+## Other
 
-`git diff *.py`{{execute}}
+We can use __--dry-run__ and __-f__ also. It works similar to the `git rm`.
