@@ -14,7 +14,8 @@
     },
     {
       "title": "Step 3 - Remove",
-      "text": "step3.md"
+      "text": "step3.md",
+      "courseData": "remove.sh"
     },
     {
       "title": "Step 4 - Move",
